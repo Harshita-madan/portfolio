@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <section id="about" className="py-24 px-6 dark:bg-slate-950">
-      <div className="container mx-auto max-w-6xl">
-        <motion.div
-          className="grid lg:grid-cols-2 gap-16 items-center"
-          initial={{ opacity: 0, y: 50 }}
+      <section id="about" className="py-24 px-6 dark:bg-slate-950">
+        <div className="container mx-auto max-w-6xl">
+          <motion.div
+            className="grid lg:grid-cols-2 gap-16 items-center"
+            initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
