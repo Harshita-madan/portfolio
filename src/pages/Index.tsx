@@ -7,7 +7,6 @@ import Projects from '../components/Projects';
 import Skills from '../components/Skills';
 import Contact from '../components/Contact';
 import Navigation from '../components/Navigation';
-import ThemeToggle from '../components/ThemeToggle';
 import OrbitBackground from '../components/OrbitBackground';
 
 const Index = () => {
@@ -20,7 +19,6 @@ const Index = () => {
     <div className="relative min-h-screen bg-slate-900 dark:bg-slate-950 overflow-hidden">
       <OrbitBackground />
       <Navigation />
-      <ThemeToggle />
       
       <motion.div
         initial={{ opacity: 0 }}

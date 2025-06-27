@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center justify-center relative px-6 pt-40 pb-24"
+      className="min-h-screen flex items-center justify-center relative px-6 pt-32 pb-24"
     >
       <div className="text-center z-10">
         {/* Heading + Subheading */}
