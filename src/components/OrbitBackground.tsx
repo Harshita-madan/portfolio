@@ -137,30 +137,7 @@ const OrbitBackground = () => {
         </div>
       </div>
 
-      {/* Zodiac symbols floating around */}
-      {['♈', '♉', '♊', '♋', '♌', '♍', '♎', '♏', '♐', '♑', '♒', '♓'].map((symbol, i) => (
-        <motion.div
-          key={symbol}
-          className="absolute text-purple-300/40 text-2xl font-bold"
-          style={{
-            left: `${15 + (i * 6) % 70}%`,
-            top: `${20 + (i * 8) % 60}%`,
-          }}
-          animate={{
-            y: [0, -20, 0],
-            opacity: [0.2, 0.6, 0.2],
-            rotate: [0, 360],
-          }}
-          transition={{
-            duration: 10 + i * 2,
-            repeat: Infinity,
-            ease: 'easeInOut',
-            delay: i * 0.5,
-          }}
-        >
-          {symbol}
-        </motion.div>
-      ))}
+      
 
       {/* Shooting stars */}
       {[...Array(3)].map((_, i) => (
