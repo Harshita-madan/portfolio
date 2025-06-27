@@ -5,17 +5,17 @@ const About = () => {
       <section id="about" className="py-24 px-6 dark:bg-slate-950">
         <div className="container mx-auto max-w-6xl">
           <motion.div
-            className="grid lg:grid-cols-2 gap-16 items-center"
+            className="grid lg:grid-cols-2 gap-16 items-center z-10"
             initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
           {/* Text Content */}
-          <div>
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 font-poppins">
+          <motion.div className="z-10">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 font-poppins z-10">
               About{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400 z-10">
                 Me
               </span>
             </h2>
@@ -56,7 +56,7 @@ const About = () => {
                 that are not only functional but also visually stellar.
               </p>
             </div>
-          </div>
+          </motion.div>
 
           {/* Image on Right */}
           <motion.div
