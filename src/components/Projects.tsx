@@ -1,47 +1,55 @@
-import { motion } from 'framer-motion';
-import { ExternalLink, Github } from 'lucide-react';
+import { motion } from "framer-motion";
+import { ExternalLink, Github } from "lucide-react";
 
 const Projects = () => {
   const projects = [
     {
       title: "Yojana Guru",
-      description: "An AI-powered platform that helps users discover personalized government schemes through multilingual chatbot support, voice search, and smart filtering based on user profiles.",
+      description:
+        "An AI-powered platform that helps users discover personalized government schemes through multilingual chatbot support, voice search, and smart filtering based on user profiles.",
       planet: "Mars",
       color: "from-red-500 to-orange-500",
       tech: ["React.js", "Express", "Groq", "Node.js"],
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop",
-      source: "https://github.com/nikhil-agrawal123/health-chat-nexus",
-      demo: "https://yojana-guru.vercel.app"
+      image:
+        "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop",
+      source: "https://github.com/codewithabhay10/YojanaGuru-Main",
+      demo: "https://github.com/codewithabhay10/YojanaGuru-Main",
     },
     {
       title: "Health-Chat-Nexus",
-      description: "AI-powered platform that pre-screens symptoms through smart chatbots and connects patients with doctors via seamless video consultations.",
+      description:
+        "AI-powered platform that pre-screens symptoms through smart chatbots and connects patients with doctors via seamless video consultations.",
       planet: "Jupiter",
       color: "from-orange-500 to-yellow-500",
       tech: ["React.js", "TensorFlow", "Node.js", "NLP"],
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&h=400&fit=crop",
-      source: "https://github.com/your-username/health-chat-nexus",
-      demo: "https://health-chat-nexus.vercel.app"
+      image:
+        "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&h=400&fit=crop",
+      source: "https://github.com/codewithabhay10/health-chat-nexus",
+      demo: "https://health-chat-nexus.vercel.app",
     },
     {
       title: "Pixel Patrika",
-      description: "E-commerce platform for selling posters built using Next.js",
+      description:
+        "E-commerce platform for selling posters built using Next.js",
       planet: "Saturn",
       color: "from-purple-500 to-pink-500",
       tech: ["Next.js", "Stripe", "MongoDB"],
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=400&fit=crop",
-      source: "https://github.com/your-username/pixel-patrika",
-      demo: "https://pixel-patrika.vercel.app"
+      image:
+        "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=400&fit=crop",
+      source: "https://github.com/codewithabhay10/e-commerce",
+      demo: "https://github.com/codewithabhay10/e-commerce",
     },
     {
       title: "ShaktiGuard",
-      description: "It is a full-stack application designed to enhance women's safety by providing features such as identifying the safest path, detecting deepfake media, SOS calling, and managing emergency contacts.",
+      description:
+        "It is a full-stack application designed to enhance women's safety by providing features such as identifying the safest path, detecting deepfake media, SOS calling, and managing emergency contacts.",
       planet: "Neptune",
       color: "from-blue-500 to-cyan-500",
       tech: ["React.js", "Twilio", "GrasshopperAPI"],
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop",
-      source: "https://github.com/your-username/shaktiguard",
-      demo: "https://shaktiguard.vercel.app"
+      image:
+        "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop",
+      source: "https://github.com/codewithabhay10/womenSafety",
+      demo: "https://www.youtube.com/watch?v=7LM3aXWTesc",
     },
   ];
 
@@ -55,7 +63,10 @@ const Projects = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          Featured <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">Projects</span>
+          Featured{" "}
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">
+            Projects
+          </span>
         </motion.h2>
 
         <div className="grid md:grid-cols-2 gap-8">
@@ -81,7 +92,9 @@ const Projects = () => {
 
                   {/* Planet indicator */}
                   <div className="absolute top-4 right-4">
-                    <div className={`w-12 h-12 rounded-full bg-gradient-to-br ${project.color} flex items-center justify-center text-white font-bold text-sm font-poppins`}>
+                    <div
+                      className={`w-12 h-12 rounded-full bg-gradient-to-br ${project.color} flex items-center justify-center text-white font-bold text-sm font-poppins`}
+                    >
                       {project.planet[0]}
                     </div>
                   </div>
@@ -89,8 +102,12 @@ const Projects = () => {
 
                 {/* Content */}
                 <div className="p-8">
-                  <h3 className="text-2xl font-bold text-white mb-4 font-poppins">{project.title}</h3>
-                  <p className="text-gray-300 mb-6 font-poppins">{project.description}</p>
+                  <h3 className="text-2xl font-bold text-white mb-4 font-poppins">
+                    {project.title}
+                  </h3>
+                  <p className="text-gray-300 mb-6 font-poppins">
+                    {project.description}
+                  </p>
 
                   <div className="flex flex-wrap gap-2 mb-6">
                     {project.tech.map((tech, i) => (
@@ -131,7 +148,7 @@ const Projects = () => {
                 </div>
 
                 {/* Hover glow effect */}
-                <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-purple-600/10 to-blue-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-purple-600/10 to-blue-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
               </div>
             </motion.div>
           ))}
