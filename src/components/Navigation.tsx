@@ -38,7 +38,7 @@ const Navigation = () => {
             whileHover={{ scale: 1.05 }}
           >
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">
-              Abhay Madan
+              Harshita Madan
             </span>
           </motion.div>
 
