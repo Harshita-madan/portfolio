@@ -1,6 +1,12 @@
 import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
 
+// Import project images so Vite bundles them correctly
+import edspireImg from "../../edspire photo.png";
+import trendoraImg from "../../trendora.png";
+import typingCoachImg from "../../TYPING COACH.png";
+import razorpayImg from "../../razorpay.png";
+
 const Projects = () => {
   const projects = [
     {
@@ -10,7 +16,7 @@ const Projects = () => {
       planet: "Mars",
       color: "from-red-500 to-orange-500",
       tech: ["React.js", "Express.js", "MongoDB", "Node.js","TailwindCSS","JWT"],
-      image: "./edspire photo.png",
+  image: edspireImg,
       source: "https://github.com/Harshita-madan/Edspire",
       demo: "https://edspire-three.vercel.app/",
     },
@@ -21,8 +27,7 @@ const Projects = () => {
       planet: "Jupiter",
       color: "from-orange-500 to-yellow-500",
       tech: ["React.js", "TailwindCSS"],
-      image:
-        "./trendora.png",
+      image: trendoraImg,
       source: "https://github.com/Harshita-madan/TRENDORA-Online-shopping-store",
       demo: "https://trendora-online-shopping-store.vercel.app/",
     },
@@ -33,8 +38,7 @@ const Projects = () => {
       planet: "Saturn",
       color: "from-purple-500 to-pink-500",
       tech: ["C++"],
-      image:
-        "./TYPING COACH.png",
+      image: typingCoachImg,
       source: "https://github.com/Harshita-madan/typing-coach",
       demo: "https://github.com/Harshita-madan/typing-coach",
     },
@@ -45,8 +49,7 @@ const Projects = () => {
       planet: "Neptune",
       color: "from-blue-500 to-cyan-500",
       tech: ["React.js", "TailwindCSS"],
-      image:
-        "./razorpay.png",
+      image: razorpayImg,
       source: "https://github.com/Harshita-madan/Razor-pay-clone",
       demo: "https://github.com/Harshita-madan/Razor-pay-clone",
     },

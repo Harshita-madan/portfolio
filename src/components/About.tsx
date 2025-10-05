@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import harshitaPhoto from "../../Harshita photo 2 new.jpg";
 
 const About = () => {
   return (
@@ -55,7 +56,7 @@ const About = () => {
             viewport={{ once: true }}
           >
             <img
-              src="./Harshita photo 2 new.jpg" 
+              src={harshitaPhoto}
               alt="About Illustration"
               className="rounded-2xl shadow-xl w-full h-auto"
             />
