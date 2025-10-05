@@ -10,7 +10,7 @@ const Projects = () => {
       planet: "Mars",
       color: "from-red-500 to-orange-500",
       tech: ["React.js", "Express.js", "MongoDB", "Node.js","TailwindCSS","JWT"],
-      image: "edspire photo.png",
+      image: "./edspire photo.png",
       source: "https://github.com/Harshita-madan/Edspire",
       demo: "https://edspire-three.vercel.app/",
     },
@@ -22,7 +22,7 @@ const Projects = () => {
       color: "from-orange-500 to-yellow-500",
       tech: ["React.js", "TailwindCSS"],
       image:
-        "trendora.png",
+        "./trendora.png",
       source: "https://github.com/Harshita-madan/TRENDORA-Online-shopping-store",
       demo: "https://trendora-online-shopping-store.vercel.app/",
     },
@@ -34,7 +34,7 @@ const Projects = () => {
       color: "from-purple-500 to-pink-500",
       tech: ["C++"],
       image:
-        "TYPING COACH.png",
+        "./TYPING COACH.png",
       source: "https://github.com/Harshita-madan/typing-coach",
       demo: "https://github.com/Harshita-madan/typing-coach",
     },
@@ -46,7 +46,7 @@ const Projects = () => {
       color: "from-blue-500 to-cyan-500",
       tech: ["React.js", "TailwindCSS"],
       image:
-        "razorpay.png",
+        "./razorpay.png",
       source: "https://github.com/Harshita-madan/Razor-pay-clone",
       demo: "https://github.com/Harshita-madan/Razor-pay-clone",
     },
