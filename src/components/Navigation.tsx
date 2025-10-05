@@ -54,7 +54,7 @@ const Navigation = () => {
             <div className="fixed inset-0 z-50 h-screen w-screen overflow-y-auto bg-slate-900/90 backdrop-blur-md px-6 py-6 font-poppins text-white">
               <div className="flex justify-between items-center">
                 <span className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">
-                  Abhay Madan
+                  Harshita Madan
                 </span>
                 <button onClick={() => setMenuOpen(false)}>
                   <X size={28} />
