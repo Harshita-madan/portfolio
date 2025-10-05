@@ -51,7 +51,7 @@ const Contact = () => {
           >
             <div>
               <h3 className="text-2xl font-bold text-white mb-6 font-poppins">
-                Let's Connect Across the Digital Galaxy
+                Let's Connect
               </h3>
               <p className="text-gray-300 text-lg font-poppins">
                 Ready to embark on a new project? Whether you're looking to
@@ -62,8 +62,8 @@ const Contact = () => {
 
             <div className="space-y-6">
               {[
-                { icon: Mail, label: "Email", value: "abhaymadan22@gmail.com" },
-                { icon: Phone, label: "Phone", value: "+91 9821714680" },
+                { icon: Mail, label: "Email", value: "madanharshita2gmail.com" },
+                { icon: Phone, label: "Phone", value: "+91 9773576310" },
                 { icon: MapPin, label: "Location", value: "Delhi,India" },
               ].map((item, index) => (
                 <motion.div
@@ -88,7 +88,7 @@ const Contact = () => {
             </div>
             <div className="flex space-x-6 pt-4">
               <motion.a
-                href="https://github.com/codewithabhay10"
+                href="https://github.com/Harshita-madan"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1 }}
@@ -105,7 +105,7 @@ const Contact = () => {
               </motion.a>
 
               <motion.a
-                href="https://www.linkedin.com/in/abhay-madan-470804290/"
+                href="https://www.linkedin.com/in/harshita-madan-02abc/"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1 }}

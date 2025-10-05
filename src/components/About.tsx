@@ -30,30 +30,18 @@ const About = () => {
                   transition={{ duration: 0.6, delay: 0.2 }}
                   viewport={{ once: true }}
                 >
-                  Abhay Madan
+                  Harshita Madan
                 </motion.span>
-                , an Electrical Engineering student at{" "}
-                <strong>Delhi Technological University (formerly DCE)</strong> with a deep
-                passion for web development, open-source, competitive programming, and
-                everything space-related.
               </p>
               <p>
-                I thrive on building impactful tech, and my love for innovation has led me to
-                exciting hackathon experiences — securing a <strong>Top 100</strong> position
-                out of 3700+ teams in the{" "}
-                <strong>GDG Hack2skill Hackathon</strong>, and finishing in the{" "}
-                <strong>Top 5</strong> at <strong>Infronix</strong>, IIIT Delhi.
-              </p>
-              <p>
-                You’ll often find me collaborating at hackathons or working on personal projects
-                like <strong>Yojana Guru</strong>, <strong>Health-Chat Nexus</strong>, and{" "}
-                <strong>Pixel Patrika</strong>, which reflect my curiosity and problem-solving
-                drive.
-              </p>
-              <p>
-                My journey started just a year ago with my first website. Since then, I’ve
-                explored a wide range of technologies and design principles to build applications
-                that are not only functional but also visually stellar.
+                I am currently pursuing a Bachelor's Degree in Computer Science with specialization in Data Science at Netaji
+                Subhas University Of Technology. I am passionate towards learning how to solve complex problems and drive innovation.
+                I have built a strong foundation in Data Structures and algorithms , web development , operating systems , database management systems, OOPS programming and computer networks.
+                
+                I am proficient in programming languages such as C and C++ and have hands-on experience with modern web technologies and frameworks, including MongoDB, Express.js, React.js, Node.js, Tailwind CSS, HTML, CSS, and JavaScript.
+                I am well-versed in deploying web applications using platforms like Render and Vercel, and have experience building and consuming RESTful APIs.
+                I regularly work with developer tools like Visual Studio Code and Google Colab which enhance my efficiency and productivity. 
+                Additionally, I am skilled in using GitHub for version control and collaborative development. My passion for problem-solving has driven me to solve 700+ problems across various coding platforms, sharpening my logical thinking and algorithmic skills. 
               </p>
             </div>
           </motion.div>
@@ -67,7 +55,7 @@ const About = () => {
             viewport={{ once: true }}
           >
             <img
-              src="/IMG_9115.jpg" // ✅ must match the exact filename in public
+              src="/Harshita photo 2 new.jpg" 
               alt="About Illustration"
               className="rounded-2xl shadow-xl w-full h-auto"
             />
