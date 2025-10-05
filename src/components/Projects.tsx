@@ -4,52 +4,51 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "Yojana Guru",
+      title: "EDSPIRE",
       description:
-        "An AI-powered platform that helps users discover personalized government schemes through multilingual chatbot support, voice search, and smart filtering based on user profiles.",
+        "A full-stack Ed-tech platform that offers personalized learning experiences, interactive content, and real-time progress tracking to enhance student engagement and academic performance.",
       planet: "Mars",
       color: "from-red-500 to-orange-500",
-      tech: ["React.js", "Express", "Groq", "Node.js"],
-      image:
-        "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop",
-      source: "https://github.com/codewithabhay10/YojanaGuru-Main",
-      demo: "https://github.com/codewithabhay10/YojanaGuru-Main",
+      tech: ["React.js", "Express.js", "MongoDB", "Node.js","TailwindCSS","JWT"],
+      image: "edspire photo.png",
+      source: "https://github.com/Harshita-madan/Edspire",
+      demo: "https://edspire-three.vercel.app/",
     },
     {
-      title: "Health-Chat-Nexus",
+      title: "TRENDORA",
       description:
-        "AI-powered platform that pre-screens symptoms through smart chatbots and connects patients with doctors via seamless video consultations.",
+        "A React-based online shopping platform that provides users with a complete shopping experience including product browsing, cart management, wish list functionality, and checkout process.",
       planet: "Jupiter",
       color: "from-orange-500 to-yellow-500",
-      tech: ["React.js", "TensorFlow", "Node.js", "NLP"],
+      tech: ["React.js", "TailwindCSS"],
       image:
-        "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&h=400&fit=crop",
-      source: "https://github.com/codewithabhay10/health-chat-nexus",
-      demo: "https://health-chat-nexus.vercel.app",
+        "trendora.png",
+      source: "https://github.com/Harshita-madan/TRENDORA-Online-shopping-store",
+      demo: "https://trendora-online-shopping-store.vercel.app/",
     },
     {
-      title: "Pixel Patrika",
+      title: "TYPING COACH",
       description:
-        "E-commerce platform for selling posters built using Next.js",
+        "An application to improve user's typing speed, accuracy, and consistency with real-time auto suggestions and performance report.",
       planet: "Saturn",
       color: "from-purple-500 to-pink-500",
-      tech: ["Next.js", "Stripe", "MongoDB"],
+      tech: ["C++"],
       image:
-        "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=400&fit=crop",
-      source: "https://github.com/codewithabhay10/e-commerce",
-      demo: "https://github.com/codewithabhay10/e-commerce",
+        "TYPING COACH.png",
+      source: "https://github.com/Harshita-madan/typing-coach",
+      demo: "https://github.com/Harshita-madan/typing-coach",
     },
     {
-      title: "ShaktiGuard",
+      title: "RAZORPAY",
       description:
-        "It is a full-stack application designed to enhance women's safety by providing features such as identifying the safest path, detecting deepfake media, SOS calling, and managing emergency contacts.",
+        "Developed a responsive Razorpay clone with seamless UI/UX, payment workflows, and dynamic frontend functionality.",
       planet: "Neptune",
       color: "from-blue-500 to-cyan-500",
-      tech: ["React.js", "Twilio", "GrasshopperAPI"],
+      tech: ["React.js", "TailwindCSS"],
       image:
-        "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop",
-      source: "https://github.com/codewithabhay10/womenSafety",
-      demo: "https://www.youtube.com/watch?v=7LM3aXWTesc",
+        "razorpay.png",
+      source: "https://github.com/Harshita-madan/Razor-pay-clone",
+      demo: "https://github.com/Harshita-madan/Razor-pay-clone",
     },
   ];
 

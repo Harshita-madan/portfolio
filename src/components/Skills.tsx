@@ -7,13 +7,13 @@ const Skills = () => {
     {
       title: "Frontend Development",
       icon: Globe,
-      skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML/CSS"],
+      skills: ["React", "Javascript", "TypeScript", "Tailwind CSS", "HTML/CSS"],
       color: "from-blue-500 to-cyan-500"
     },
     {
       title: "Backend Development", 
       icon: Database,
-      skills: ["Node.js", "Express", "Python", "MongoDB", "PostgreSQL"],
+      skills: ["Node.js", "Express", "MongoDB", "MySQL", "PostgreSQL"],
       color: "from-purple-500 to-pink-500"
     },
     {
@@ -25,7 +25,19 @@ const Skills = () => {
     {
       title: "Tools & Technologies",
       icon: Wrench,
-      skills: ["Git", "VS Code", "Vercel", "AWS", "Docker"],
+      skills: ["Github", "VS Code", "Vercel", "Render","Google Colab"],
+      color: "from-orange-500 to-red-500"
+    },
+    {
+      title: "Courses",
+      icon: Wrench,
+      skills: ["Data structures and algorithms", "Database management systems", "Operating systems", "Web development","OOPS programming"],
+      color: "from-orange-500 to-red-500"
+    },
+    {
+      title: "Programming Languages",
+      icon: Wrench,
+      skills: ["C", "C++", "Python", "JavaScript", "TypeScript"],
       color: "from-orange-500 to-red-500"
     }
   ];

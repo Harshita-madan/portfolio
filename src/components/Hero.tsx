@@ -20,22 +20,22 @@ const Hero = () => {
           transition={{ duration: 1 }}
         >
           <p className="text-purple-400 text-xl md:text-2xl font-mono">
-            Welcome to my astronomical portfolio
+            Welcome to my portfolio
           </p>
 
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight space-y-2">
             <span className="block">
-              <span className="text-purple-400">Exploring</span> Abhay’s
+              <span className="text-purple-400">Harshita</span> Madan
             </span>
-            <span className="block text-pink-400">Universe</span>
+            {/* <span className="block text-pink-400">_</span>
             <span className="block text-white font-extrabold">
               of Stellar Creations
-            </span>
+            </span> */}
           </h1>
 
           <p className="text-gray-300 max-w-2xl mx-auto text-lg md:text-xl">
-            Crafting intuitive digital experiences guided by stars and driven by imagination.
-            Embark on a journey through celestial code and visionary design.
+            Passionate developer and problem solver with hands-on experience in web development and modern technologies.
+            Skilled in building responsive and user-friendly applications, with a strong foundation in data structures and algorithms."
           </p>
         </motion.div>
 
